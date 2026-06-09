@@ -11,3 +11,13 @@
 
   --font-family-sans: var(--font-manrope), sans-serif;
 }
+
+:root {
+  --header-height: 70px;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --header-height: 80px;
+  }
+}
