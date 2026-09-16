@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
+import SectionHeading from "../ui/SectionHeading";
 
 export default function About() {
 	return (
@@ -20,13 +21,7 @@ export default function About() {
 				</div>
 
 				<div className="flex flex-col justify-center gap-3 w-full md:w-1/2 md:pl-12 px-6 pt-11 pb-6 md:px-12 md:py-24 order-1 md:order-2">
-					<span className="text-xs uppercase tracking-widest text-orange-cta">
-						Sobre Mim
-					</span>
-
-					<h2 className="text-3xl md:text-5xl font-bold tracking-tight text-green-brand">
-						Teodora Foss
-					</h2>
+					<SectionHeading eyebrow="Sobre Mim" title="Teodora Foss" />
 
 					<p className="text-lg md:text-xl tracking-tight text-green-brand pb-6">
 						CRP 07/45575

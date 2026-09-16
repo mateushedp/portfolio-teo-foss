@@ -1,4 +1,5 @@
 import { ArrowRight, Blocks, TabletSmartphone, User, Armchair } from "lucide-react";
+import SectionHeading from "../ui/SectionHeading";
 
 const cards = [
 	{ title: "Atendimento de Adultos e Crianças", icon: Blocks },
@@ -11,14 +12,8 @@ export default function Services() {
 	return (
 		<section id="servicos" className="bg-cream">
 			<div className="flex flex-col md:flex-row gap-12 px-6 md:px-12 py-11 md:py-32">
-				<div className="flex flex-col gap-3 md:w-1/2 max-w-[576px]">
-					<span className="text-xs uppercase tracking-widest text-orange-cta">
-						Especialidades
-					</span>
-
-					<h2 className="text-2xl text-center mb-4 md:mb-0 md:text-justify md:text-5xl tracking-tight text-green-brand">
-						Cuidado sob medida para você.
-					</h2>
+				<div className="flex flex-col md:w-1/2 max-w-[576px]">
+					<SectionHeading eyebrow="Especialidades" title="Cuidado sob medida para você." />
 
 					<p className="text-base text-justify md:text-xl text-green-brand">
 						Acredito que cada indivíduo possui uma história única que merece ser
